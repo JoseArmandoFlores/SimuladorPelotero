@@ -71,6 +71,29 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.CantTotalHitsTextBox = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.CantTotalLanzamientosTextBox = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.DiaLabel = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.SigteDiaButton = new System.Windows.Forms.Button();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.LanzamientosMasDominadosTextBox = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.PromedioBateoFinalTextBox = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.ProblemaMasAfectoTextBox = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.PromedioBateoTextBox = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.CantHitsTextBox = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.TipoContactoTextBox = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.CantLanzamientosContactoTextBox = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
             this.ProblemaTextBox = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.TipoLanzamientoTextBox = new System.Windows.Forms.TextBox();
@@ -82,29 +105,6 @@
             this.SigteLanzamientoButton = new System.Windows.Forms.Button();
             this.JugadorPictureBox = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.CantLanzamientosContactoTextBox = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.TipoContactoTextBox = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.CantHitsTextBox = new System.Windows.Forms.TextBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.PromedioBateoTextBox = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.ProblemaMasAfectoTextBox = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.PromedioBateoFinalTextBox9 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.LanzamientosMasDominadosTextBox10 = new System.Windows.Forms.TextBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.SigteDiaButton = new System.Windows.Forms.Button();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.CantTotalLanzamientosTextBox = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.CantTotalHitsTextBox = new System.Windows.Forms.TextBox();
-            this.label36 = new System.Windows.Forms.Label();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TylerWadePB)).BeginInit();
@@ -658,14 +658,14 @@
             this.tabPage2.Controls.Add(this.label36);
             this.tabPage2.Controls.Add(this.CantTotalLanzamientosTextBox);
             this.tabPage2.Controls.Add(this.label35);
-            this.tabPage2.Controls.Add(this.label34);
+            this.tabPage2.Controls.Add(this.DiaLabel);
             this.tabPage2.Controls.Add(this.label32);
             this.tabPage2.Controls.Add(this.SigteDiaButton);
             this.tabPage2.Controls.Add(this.label31);
             this.tabPage2.Controls.Add(this.label33);
-            this.tabPage2.Controls.Add(this.LanzamientosMasDominadosTextBox10);
+            this.tabPage2.Controls.Add(this.LanzamientosMasDominadosTextBox);
             this.tabPage2.Controls.Add(this.label30);
-            this.tabPage2.Controls.Add(this.PromedioBateoFinalTextBox9);
+            this.tabPage2.Controls.Add(this.PromedioBateoFinalTextBox);
             this.tabPage2.Controls.Add(this.label29);
             this.tabPage2.Controls.Add(this.ProblemaMasAfectoTextBox);
             this.tabPage2.Controls.Add(this.label28);
@@ -696,10 +696,224 @@
             this.tabPage2.Text = "Estadística";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // CantTotalHitsTextBox
+            // 
+            this.CantTotalHitsTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CantTotalHitsTextBox.Location = new System.Drawing.Point(54, 490);
+            this.CantTotalHitsTextBox.Name = "CantTotalHitsTextBox";
+            this.CantTotalHitsTextBox.Size = new System.Drawing.Size(434, 36);
+            this.CantTotalHitsTextBox.TabIndex = 47;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(51, 469);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(189, 18);
+            this.label36.TabIndex = 46;
+            this.label36.Text = "Cantidad total de hits";
+            // 
+            // CantTotalLanzamientosTextBox
+            // 
+            this.CantTotalLanzamientosTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CantTotalLanzamientosTextBox.Location = new System.Drawing.Point(54, 569);
+            this.CantTotalLanzamientosTextBox.Name = "CantTotalLanzamientosTextBox";
+            this.CantTotalLanzamientosTextBox.Size = new System.Drawing.Size(434, 36);
+            this.CantTotalLanzamientosTextBox.TabIndex = 45;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(51, 548);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(270, 18);
+            this.label35.TabIndex = 44;
+            this.label35.Text = "Cantidad total de lanzamientos";
+            // 
+            // DiaLabel
+            // 
+            this.DiaLabel.AutoSize = true;
+            this.DiaLabel.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DiaLabel.Location = new System.Drawing.Point(853, 14);
+            this.DiaLabel.Name = "DiaLabel";
+            this.DiaLabel.Size = new System.Drawing.Size(18, 21);
+            this.DiaLabel.TabIndex = 43;
+            this.DiaLabel.Text = "0";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(814, 14);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(42, 18);
+            this.label32.TabIndex = 42;
+            this.label32.Text = "Día:";
+            // 
+            // SigteDiaButton
+            // 
+            this.SigteDiaButton.Location = new System.Drawing.Point(548, 6);
+            this.SigteDiaButton.Name = "SigteDiaButton";
+            this.SigteDiaButton.Size = new System.Drawing.Size(233, 34);
+            this.SigteDiaButton.TabIndex = 41;
+            this.SigteDiaButton.Text = "Siguiente Día";
+            this.SigteDiaButton.UseVisualStyleBackColor = true;
+            this.SigteDiaButton.Click += new System.EventHandler(this.SigteDiaButton_Click);
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Georgia", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label31.Location = new System.Drawing.Point(751, 83);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(185, 23);
+            this.label31.TabIndex = 40;
+            this.label31.Text = "Estadística diaria";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Georgia", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label33.Location = new System.Drawing.Point(178, 254);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(171, 23);
+            this.label33.TabIndex = 39;
+            this.label33.Text = "Estadística final";
+            // 
+            // LanzamientosMasDominadosTextBox
+            // 
+            this.LanzamientosMasDominadosTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LanzamientosMasDominadosTextBox.Location = new System.Drawing.Point(54, 410);
+            this.LanzamientosMasDominadosTextBox.Name = "LanzamientosMasDominadosTextBox";
+            this.LanzamientosMasDominadosTextBox.Size = new System.Drawing.Size(434, 36);
+            this.LanzamientosMasDominadosTextBox.TabIndex = 34;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(51, 389);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(245, 18);
+            this.label30.TabIndex = 33;
+            this.label30.Text = "Lanzamiento más dominado";
+            // 
+            // PromedioBateoFinalTextBox
+            // 
+            this.PromedioBateoFinalTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PromedioBateoFinalTextBox.Location = new System.Drawing.Point(54, 650);
+            this.PromedioBateoFinalTextBox.Name = "PromedioBateoFinalTextBox";
+            this.PromedioBateoFinalTextBox.Size = new System.Drawing.Size(434, 36);
+            this.PromedioBateoFinalTextBox.TabIndex = 32;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(51, 629);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(163, 18);
+            this.label29.TabIndex = 31;
+            this.label29.Text = "Promedio de bateo";
+            // 
+            // ProblemaMasAfectoTextBox
+            // 
+            this.ProblemaMasAfectoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProblemaMasAfectoTextBox.Location = new System.Drawing.Point(54, 330);
+            this.ProblemaMasAfectoTextBox.Name = "ProblemaMasAfectoTextBox";
+            this.ProblemaMasAfectoTextBox.Size = new System.Drawing.Size(434, 36);
+            this.ProblemaMasAfectoTextBox.TabIndex = 30;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(51, 309);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(314, 18);
+            this.label28.TabIndex = 29;
+            this.label28.Text = "Problema que más afectó al bateador";
+            // 
+            // PromedioBateoTextBox
+            // 
+            this.PromedioBateoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PromedioBateoTextBox.Location = new System.Drawing.Point(629, 650);
+            this.PromedioBateoTextBox.Name = "PromedioBateoTextBox";
+            this.PromedioBateoTextBox.Size = new System.Drawing.Size(434, 36);
+            this.PromedioBateoTextBox.TabIndex = 28;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(626, 549);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(199, 18);
+            this.label26.TabIndex = 27;
+            this.label26.Text = "Problema que presenta";
+            // 
+            // CantHitsTextBox
+            // 
+            this.CantHitsTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CantHitsTextBox.Location = new System.Drawing.Point(629, 490);
+            this.CantHitsTextBox.Name = "CantHitsTextBox";
+            this.CantHitsTextBox.Size = new System.Drawing.Size(434, 36);
+            this.CantHitsTextBox.TabIndex = 26;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(626, 629);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(163, 18);
+            this.label25.TabIndex = 25;
+            this.label25.Text = "Promedio de bateo";
+            // 
+            // TipoContactoTextBox
+            // 
+            this.TipoContactoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TipoContactoTextBox.Location = new System.Drawing.Point(629, 410);
+            this.TipoContactoTextBox.Name = "TipoContactoTextBox";
+            this.TipoContactoTextBox.Size = new System.Drawing.Size(434, 36);
+            this.TipoContactoTextBox.TabIndex = 24;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(626, 389);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(148, 18);
+            this.label24.TabIndex = 23;
+            this.label24.Text = "Tipo de contacto";
+            // 
+            // CantLanzamientosContactoTextBox
+            // 
+            this.CantLanzamientosContactoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CantLanzamientosContactoTextBox.Location = new System.Drawing.Point(629, 330);
+            this.CantLanzamientosContactoTextBox.Name = "CantLanzamientosContactoTextBox";
+            this.CantLanzamientosContactoTextBox.Size = new System.Drawing.Size(434, 36);
+            this.CantLanzamientosContactoTextBox.TabIndex = 22;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(626, 229);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(180, 18);
+            this.label23.TabIndex = 21;
+            this.label23.Text = "Tipo de lanzamiento";
+            // 
             // ProblemaTextBox
             // 
             this.ProblemaTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProblemaTextBox.Location = new System.Drawing.Point(629, 650);
+            this.ProblemaTextBox.Location = new System.Drawing.Point(629, 570);
             this.ProblemaTextBox.Name = "ProblemaTextBox";
             this.ProblemaTextBox.Size = new System.Drawing.Size(434, 36);
             this.ProblemaTextBox.TabIndex = 20;
@@ -728,9 +942,9 @@
             this.label22.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(626, 309);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(237, 18);
+            this.label22.Size = new System.Drawing.Size(337, 18);
             this.label22.TabIndex = 9;
-            this.label22.Text = "Lanzamientos con contacto";
+            this.label22.Text = "Cantidad de lanzamientos con contacto";
             // 
             // CantLanzamientosTextBox
             // 
@@ -800,220 +1014,6 @@
             this.groupBox2.Size = new System.Drawing.Size(541, 5);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            // 
-            // CantLanzamientosContactoTextBox
-            // 
-            this.CantLanzamientosContactoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantLanzamientosContactoTextBox.Location = new System.Drawing.Point(629, 330);
-            this.CantLanzamientosContactoTextBox.Name = "CantLanzamientosContactoTextBox";
-            this.CantLanzamientosContactoTextBox.Size = new System.Drawing.Size(434, 36);
-            this.CantLanzamientosContactoTextBox.TabIndex = 22;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(626, 229);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(180, 18);
-            this.label23.TabIndex = 21;
-            this.label23.Text = "Tipo de lanzamiento";
-            // 
-            // TipoContactoTextBox
-            // 
-            this.TipoContactoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TipoContactoTextBox.Location = new System.Drawing.Point(629, 410);
-            this.TipoContactoTextBox.Name = "TipoContactoTextBox";
-            this.TipoContactoTextBox.Size = new System.Drawing.Size(434, 36);
-            this.TipoContactoTextBox.TabIndex = 24;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(626, 389);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(148, 18);
-            this.label24.TabIndex = 23;
-            this.label24.Text = "Tipo de contacto";
-            // 
-            // CantHitsTextBox
-            // 
-            this.CantHitsTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantHitsTextBox.Location = new System.Drawing.Point(629, 490);
-            this.CantHitsTextBox.Name = "CantHitsTextBox";
-            this.CantHitsTextBox.Size = new System.Drawing.Size(434, 36);
-            this.CantHitsTextBox.TabIndex = 26;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(626, 549);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(163, 18);
-            this.label25.TabIndex = 25;
-            this.label25.Text = "Promedio de bateo";
-            // 
-            // PromedioBateoTextBox
-            // 
-            this.PromedioBateoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PromedioBateoTextBox.Location = new System.Drawing.Point(629, 569);
-            this.PromedioBateoTextBox.Name = "PromedioBateoTextBox";
-            this.PromedioBateoTextBox.Size = new System.Drawing.Size(434, 36);
-            this.PromedioBateoTextBox.TabIndex = 28;
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(626, 629);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(199, 18);
-            this.label26.TabIndex = 27;
-            this.label26.Text = "Problema que presenta";
-            // 
-            // ProblemaMasAfectoTextBox
-            // 
-            this.ProblemaMasAfectoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProblemaMasAfectoTextBox.Location = new System.Drawing.Point(54, 330);
-            this.ProblemaMasAfectoTextBox.Name = "ProblemaMasAfectoTextBox";
-            this.ProblemaMasAfectoTextBox.Size = new System.Drawing.Size(434, 36);
-            this.ProblemaMasAfectoTextBox.TabIndex = 30;
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(51, 309);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(314, 18);
-            this.label28.TabIndex = 29;
-            this.label28.Text = "Problema que más afectó al bateador";
-            // 
-            // PromedioBateoFinalTextBox9
-            // 
-            this.PromedioBateoFinalTextBox9.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PromedioBateoFinalTextBox9.Location = new System.Drawing.Point(54, 490);
-            this.PromedioBateoFinalTextBox9.Name = "PromedioBateoFinalTextBox9";
-            this.PromedioBateoFinalTextBox9.Size = new System.Drawing.Size(434, 36);
-            this.PromedioBateoFinalTextBox9.TabIndex = 32;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(51, 469);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(163, 18);
-            this.label29.TabIndex = 31;
-            this.label29.Text = "Promedio de bateo";
-            // 
-            // LanzamientosMasDominadosTextBox10
-            // 
-            this.LanzamientosMasDominadosTextBox10.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LanzamientosMasDominadosTextBox10.Location = new System.Drawing.Point(54, 410);
-            this.LanzamientosMasDominadosTextBox10.Name = "LanzamientosMasDominadosTextBox10";
-            this.LanzamientosMasDominadosTextBox10.Size = new System.Drawing.Size(434, 36);
-            this.LanzamientosMasDominadosTextBox10.TabIndex = 34;
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(51, 389);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(261, 18);
-            this.label30.TabIndex = 33;
-            this.label30.Text = "Lanzamientos más dominados";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Georgia", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label33.Location = new System.Drawing.Point(178, 254);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(171, 23);
-            this.label33.TabIndex = 39;
-            this.label33.Text = "Estadística final";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Georgia", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label31.Location = new System.Drawing.Point(750, 83);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(185, 23);
-            this.label31.TabIndex = 40;
-            this.label31.Text = "Estadística diaria";
-            // 
-            // SigteDiaButton
-            // 
-            this.SigteDiaButton.Location = new System.Drawing.Point(548, 6);
-            this.SigteDiaButton.Name = "SigteDiaButton";
-            this.SigteDiaButton.Size = new System.Drawing.Size(233, 34);
-            this.SigteDiaButton.TabIndex = 41;
-            this.SigteDiaButton.Text = "Siguiente Día";
-            this.SigteDiaButton.UseVisualStyleBackColor = true;
-            this.SigteDiaButton.Click += new System.EventHandler(this.SigteDiaButton_Click);
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(814, 14);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(42, 18);
-            this.label32.TabIndex = 42;
-            this.label32.Text = "Día:";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Goudy Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(853, 14);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(18, 21);
-            this.label34.TabIndex = 43;
-            this.label34.Text = "0";
-            // 
-            // CantTotalLanzamientosTextBox
-            // 
-            this.CantTotalLanzamientosTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantTotalLanzamientosTextBox.Location = new System.Drawing.Point(54, 569);
-            this.CantTotalLanzamientosTextBox.Name = "CantTotalLanzamientosTextBox";
-            this.CantTotalLanzamientosTextBox.Size = new System.Drawing.Size(434, 36);
-            this.CantTotalLanzamientosTextBox.TabIndex = 45;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(51, 548);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(270, 18);
-            this.label35.TabIndex = 44;
-            this.label35.Text = "Cantidad total de lanzamientos";
-            // 
-            // CantTotalHitsTextBox
-            // 
-            this.CantTotalHitsTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantTotalHitsTextBox.Location = new System.Drawing.Point(54, 650);
-            this.CantTotalHitsTextBox.Name = "CantTotalHitsTextBox";
-            this.CantTotalHitsTextBox.Size = new System.Drawing.Size(434, 36);
-            this.CantTotalHitsTextBox.TabIndex = 47;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(51, 629);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(189, 18);
-            this.label36.TabIndex = 46;
-            this.label36.Text = "Cantidad total de hits";
             // 
             // MainForm
             // 
@@ -1120,15 +1120,15 @@
         private System.Windows.Forms.TextBox CantLanzamientosContactoTextBox;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox LanzamientosMasDominadosTextBox10;
+        private System.Windows.Forms.TextBox LanzamientosMasDominadosTextBox;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox PromedioBateoFinalTextBox9;
+        private System.Windows.Forms.TextBox PromedioBateoFinalTextBox;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.TextBox ProblemaMasAfectoTextBox;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Button SigteDiaButton;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label DiaLabel;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.TextBox CantTotalHitsTextBox;
         private System.Windows.Forms.Label label36;
