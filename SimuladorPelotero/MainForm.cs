@@ -12,9 +12,10 @@ namespace SimuladorPelotero
 {
     public partial class MainForm : Form
     {
-        string TipoLanzamiento, TipoLanzamientoAnterior = "Recta",  TipoContacto, Problema;
+        string TipoLanzamientoAnterior = "Ninguno", TipoLanzamiento, LanzamientosConContacto, TipoContacto, Problema;
+        int Dia, PosibilidadContacto = 50, CantidadLanzamientos = 0, CantidadHits = 0, CantidadTotalLanzamientos = 0, CantidadTotalHits = 0;
+        double PromedioBateo = 0;
         bool Bateo;
-        int Dia, PosibilidadContacto = 50;
         public MainForm()
         {
             InitializeComponent();
@@ -22,7 +23,6 @@ namespace SimuladorPelotero
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
         }
 
         public void DeterminarLanzamiento()
@@ -110,8 +110,157 @@ namespace SimuladorPelotero
         }
         public void Simular()
         {
-            
-            
+            DeterminarLanzamiento();
+            AumentarPosibilidadContacto();
+            DeterminarPosibilidadBatear(PosibilidadContacto);
+            DeterminarTipoContacto();
+            DeterminarProblema();
+            DisminuirPosibilidadContacto();
+        }
+
+        private void SigteLanzamientoButton_Click(object sender, EventArgs e)
+        {
+            Simular();
+            //10
+        }
+
+        private void SigteDiaButton_Click(object sender, EventArgs e)
+        {
+            int n = 80 - CantidadLanzamientos;//70
+
+            for (int i = 0; i < n; i++)
+            {
+                Simular();
+            }
+            Dia++;
+        }
+
+        //Asignando jugador
+        private void AaronJudgePB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = AaronJudgePB.Image;
+            JugadorTextBox.Text = "Aaron Judge";
+            TabControl.SelectedIndex = 1;
+        }
+        private void AaronHicksPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = AaronHicksPB.Image;
+            JugadorTextBox.Text = "Aaron Hicks";
+            TabControl.SelectedIndex = 1;
+        }
+        private void BrettGardnerPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = BrettGardnerPB.Image;
+            JugadorTextBox.Text = "Brett Gardner";
+            TabControl.SelectedIndex = 1;
+        }
+        private void ClintFrazierPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = ClintFrazierPB.Image;
+            JugadorTextBox.Text = "Clint Frazier";
+            TabControl.SelectedIndex = 1;
+        }
+        private void DJLeMahieuPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = DJLeMahieuPB.Image;
+            JugadorTextBox.Text = "DJ LeMahieu";
+            TabControl.SelectedIndex = 1;
+        }
+        private void GarySanchezPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = GarySanchezPB.Image;
+            JugadorTextBox.Text = "Gary Sanchez";
+            TabControl.SelectedIndex = 1;
+        }
+        private void GiancarloStantonPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = GiancarloStantonPB.Image;
+            JugadorTextBox.Text = "Giancarlo Stanton";
+            TabControl.SelectedIndex = 1;
+        }
+        private void GioUrshelaPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = GioUrshelaPB.Image;
+            JugadorTextBox.Text = "Gio Urshela";
+            TabControl.SelectedIndex = 1;
+        }
+        private void GleyberTorresPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = GleyberTorresPB.Image;
+            JugadorTextBox.Text = "Gleyber Torres";
+            TabControl.SelectedIndex = 1;
+        }
+        private void JonathanArauzPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = JonathanArauzPB.Image;
+            JugadorTextBox.Text = "Jonathan Arauz";
+            TabControl.SelectedIndex = 1;
+        }
+        private void JuanSotoPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = JuanSotoPB.Image;
+            JugadorTextBox.Text = "Juan Soto";
+            TabControl.SelectedIndex = 1;
+        }
+        private void KyleHigashiokaPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = KyleHigashiokaPB.Image;
+            JugadorTextBox.Text = "Kyle Higashioka";
+            TabControl.SelectedIndex = 1;
+        }
+        private void LukeVoitPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = LukeVoitPB.Image;
+            JugadorTextBox.Text = "Luke Voit";
+            TabControl.SelectedIndex = 1;
+        }
+        private void MichaelChavisPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = MichaelChavisPB.Image;
+            JugadorTextBox.Text = "Michael Chavis";
+            TabControl.SelectedIndex = 1;
+        }
+        private void MiguelAndujarPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = MiguelAndujarPB.Image;
+            JugadorTextBox.Text = "Miguel Andujar";
+            TabControl.SelectedIndex = 1;
+        }
+        private void MikeFordPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = MikeFordPB.Image;
+            JugadorTextBox.Text = "Mike Ford";
+            TabControl.SelectedIndex = 1;
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MikeTauchmanPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = MikeTauchmanPB.Image;
+            JugadorTextBox.Text = "Mike Tauchman";
+            TabControl.SelectedIndex = 1;
+        }
+        private void RafaelDeversPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = RafaelDeversPB.Image;
+            JugadorTextBox.Text = "Rafael Devers";
+            TabControl.SelectedIndex = 1;
+        }
+        private void ThairoEstradaPB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = ThairoEstradaPB.Image;
+            JugadorTextBox.Text = "Thairo Estrada";
+            TabControl.SelectedIndex = 1;
+        }
+        private void TylerWadePB_Click(object sender, EventArgs e)
+        {
+            JugadorPictureBox.Image = TylerWadePB.Image;
+            JugadorTextBox.Text = "Tyler Wade";
+            TabControl.SelectedIndex = 1;
         }
     }
 }
