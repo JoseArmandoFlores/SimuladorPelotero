@@ -30,26 +30,6 @@
         {
             this.TabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.TylerWadePB = new System.Windows.Forms.PictureBox();
-            this.ThairoEstradaPB = new System.Windows.Forms.PictureBox();
-            this.RafaelDeversPB = new System.Windows.Forms.PictureBox();
-            this.MikeTauchmanPB = new System.Windows.Forms.PictureBox();
-            this.MikeFordPB = new System.Windows.Forms.PictureBox();
-            this.MiguelAndujarPB = new System.Windows.Forms.PictureBox();
-            this.MichaelChavisPB = new System.Windows.Forms.PictureBox();
-            this.LukeVoitPB = new System.Windows.Forms.PictureBox();
-            this.KyleHigashiokaPB = new System.Windows.Forms.PictureBox();
-            this.JuanSotoPB = new System.Windows.Forms.PictureBox();
-            this.JonathanArauzPB = new System.Windows.Forms.PictureBox();
-            this.GleyberTorresPB = new System.Windows.Forms.PictureBox();
-            this.GioUrshelaPB = new System.Windows.Forms.PictureBox();
-            this.GiancarloStantonPB = new System.Windows.Forms.PictureBox();
-            this.GarySanchezPB = new System.Windows.Forms.PictureBox();
-            this.DJLeMahieuPB = new System.Windows.Forms.PictureBox();
-            this.ClintFrazierPB = new System.Windows.Forms.PictureBox();
-            this.BrettGardnerPB = new System.Windows.Forms.PictureBox();
-            this.AaronHicksPB = new System.Windows.Forms.PictureBox();
-            this.AaronJudgePB = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -103,10 +83,32 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.JugadorTextBox = new System.Windows.Forms.TextBox();
             this.SigteLanzamientoButton = new System.Windows.Forms.Button();
-            this.JugadorPictureBox = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.TylerWadePB = new System.Windows.Forms.PictureBox();
+            this.ThairoEstradaPB = new System.Windows.Forms.PictureBox();
+            this.RafaelDeversPB = new System.Windows.Forms.PictureBox();
+            this.MikeTauchmanPB = new System.Windows.Forms.PictureBox();
+            this.MikeFordPB = new System.Windows.Forms.PictureBox();
+            this.MiguelAndujarPB = new System.Windows.Forms.PictureBox();
+            this.MichaelChavisPB = new System.Windows.Forms.PictureBox();
+            this.LukeVoitPB = new System.Windows.Forms.PictureBox();
+            this.KyleHigashiokaPB = new System.Windows.Forms.PictureBox();
+            this.JuanSotoPB = new System.Windows.Forms.PictureBox();
+            this.JonathanArauzPB = new System.Windows.Forms.PictureBox();
+            this.GleyberTorresPB = new System.Windows.Forms.PictureBox();
+            this.GioUrshelaPB = new System.Windows.Forms.PictureBox();
+            this.GiancarloStantonPB = new System.Windows.Forms.PictureBox();
+            this.GarySanchezPB = new System.Windows.Forms.PictureBox();
+            this.DJLeMahieuPB = new System.Windows.Forms.PictureBox();
+            this.ClintFrazierPB = new System.Windows.Forms.PictureBox();
+            this.BrettGardnerPB = new System.Windows.Forms.PictureBox();
+            this.AaronHicksPB = new System.Windows.Forms.PictureBox();
+            this.AaronJudgePB = new System.Windows.Forms.PictureBox();
+            this.CompletadoPB = new System.Windows.Forms.PictureBox();
+            this.JugadorPictureBox = new System.Windows.Forms.PictureBox();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TylerWadePB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ThairoEstradaPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RafaelDeversPB)).BeginInit();
@@ -127,7 +129,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BrettGardnerPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AaronHicksPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AaronJudgePB)).BeginInit();
-            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CompletadoPB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.JugadorPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -191,266 +193,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Pelotero";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // TylerWadePB
-            // 
-            this.TylerWadePB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TylerWadePB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TylerWadePB.Image = global::SimuladorPelotero.Properties.Resources.Tyler_Wade;
-            this.TylerWadePB.Location = new System.Drawing.Point(918, 564);
-            this.TylerWadePB.Name = "TylerWadePB";
-            this.TylerWadePB.Size = new System.Drawing.Size(222, 154);
-            this.TylerWadePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.TylerWadePB.TabIndex = 20;
-            this.TylerWadePB.TabStop = false;
-            this.TylerWadePB.Click += new System.EventHandler(this.TylerWadePB_Click);
-            // 
-            // ThairoEstradaPB
-            // 
-            this.ThairoEstradaPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ThairoEstradaPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ThairoEstradaPB.Image = global::SimuladorPelotero.Properties.Resources.Thairo_Estrada;
-            this.ThairoEstradaPB.Location = new System.Drawing.Point(690, 564);
-            this.ThairoEstradaPB.Name = "ThairoEstradaPB";
-            this.ThairoEstradaPB.Size = new System.Drawing.Size(222, 154);
-            this.ThairoEstradaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ThairoEstradaPB.TabIndex = 19;
-            this.ThairoEstradaPB.TabStop = false;
-            this.ThairoEstradaPB.Click += new System.EventHandler(this.ThairoEstradaPB_Click);
-            // 
-            // RafaelDeversPB
-            // 
-            this.RafaelDeversPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.RafaelDeversPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.RafaelDeversPB.Image = global::SimuladorPelotero.Properties.Resources.Rafael_Devers;
-            this.RafaelDeversPB.Location = new System.Drawing.Point(462, 564);
-            this.RafaelDeversPB.Name = "RafaelDeversPB";
-            this.RafaelDeversPB.Size = new System.Drawing.Size(222, 154);
-            this.RafaelDeversPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.RafaelDeversPB.TabIndex = 18;
-            this.RafaelDeversPB.TabStop = false;
-            this.RafaelDeversPB.Click += new System.EventHandler(this.RafaelDeversPB_Click);
-            // 
-            // MikeTauchmanPB
-            // 
-            this.MikeTauchmanPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.MikeTauchmanPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MikeTauchmanPB.Image = global::SimuladorPelotero.Properties.Resources.Mike_Tauchman;
-            this.MikeTauchmanPB.Location = new System.Drawing.Point(234, 564);
-            this.MikeTauchmanPB.Name = "MikeTauchmanPB";
-            this.MikeTauchmanPB.Size = new System.Drawing.Size(222, 154);
-            this.MikeTauchmanPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MikeTauchmanPB.TabIndex = 17;
-            this.MikeTauchmanPB.TabStop = false;
-            this.MikeTauchmanPB.Click += new System.EventHandler(this.MikeTauchmanPB_Click);
-            // 
-            // MikeFordPB
-            // 
-            this.MikeFordPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.MikeFordPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MikeFordPB.Image = global::SimuladorPelotero.Properties.Resources.Mike_Ford;
-            this.MikeFordPB.Location = new System.Drawing.Point(6, 564);
-            this.MikeFordPB.Name = "MikeFordPB";
-            this.MikeFordPB.Size = new System.Drawing.Size(222, 154);
-            this.MikeFordPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MikeFordPB.TabIndex = 16;
-            this.MikeFordPB.TabStop = false;
-            this.MikeFordPB.Click += new System.EventHandler(this.MikeFordPB_Click);
-            // 
-            // MiguelAndujarPB
-            // 
-            this.MiguelAndujarPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.MiguelAndujarPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MiguelAndujarPB.Image = global::SimuladorPelotero.Properties.Resources.Miguel_Andujar;
-            this.MiguelAndujarPB.Location = new System.Drawing.Point(918, 376);
-            this.MiguelAndujarPB.Name = "MiguelAndujarPB";
-            this.MiguelAndujarPB.Size = new System.Drawing.Size(222, 154);
-            this.MiguelAndujarPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MiguelAndujarPB.TabIndex = 15;
-            this.MiguelAndujarPB.TabStop = false;
-            this.MiguelAndujarPB.Click += new System.EventHandler(this.MiguelAndujarPB_Click);
-            // 
-            // MichaelChavisPB
-            // 
-            this.MichaelChavisPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.MichaelChavisPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MichaelChavisPB.Image = global::SimuladorPelotero.Properties.Resources.Michael_Chavis;
-            this.MichaelChavisPB.Location = new System.Drawing.Point(690, 376);
-            this.MichaelChavisPB.Name = "MichaelChavisPB";
-            this.MichaelChavisPB.Size = new System.Drawing.Size(222, 154);
-            this.MichaelChavisPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.MichaelChavisPB.TabIndex = 14;
-            this.MichaelChavisPB.TabStop = false;
-            this.MichaelChavisPB.Click += new System.EventHandler(this.MichaelChavisPB_Click);
-            // 
-            // LukeVoitPB
-            // 
-            this.LukeVoitPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LukeVoitPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LukeVoitPB.Image = global::SimuladorPelotero.Properties.Resources.Luke_Voit;
-            this.LukeVoitPB.Location = new System.Drawing.Point(462, 376);
-            this.LukeVoitPB.Name = "LukeVoitPB";
-            this.LukeVoitPB.Size = new System.Drawing.Size(222, 154);
-            this.LukeVoitPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.LukeVoitPB.TabIndex = 13;
-            this.LukeVoitPB.TabStop = false;
-            this.LukeVoitPB.Click += new System.EventHandler(this.LukeVoitPB_Click);
-            // 
-            // KyleHigashiokaPB
-            // 
-            this.KyleHigashiokaPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.KyleHigashiokaPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.KyleHigashiokaPB.Image = global::SimuladorPelotero.Properties.Resources.Kyle_Higashioka;
-            this.KyleHigashiokaPB.Location = new System.Drawing.Point(234, 376);
-            this.KyleHigashiokaPB.Name = "KyleHigashiokaPB";
-            this.KyleHigashiokaPB.Size = new System.Drawing.Size(222, 154);
-            this.KyleHigashiokaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.KyleHigashiokaPB.TabIndex = 12;
-            this.KyleHigashiokaPB.TabStop = false;
-            this.KyleHigashiokaPB.Click += new System.EventHandler(this.KyleHigashiokaPB_Click);
-            // 
-            // JuanSotoPB
-            // 
-            this.JuanSotoPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.JuanSotoPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.JuanSotoPB.Image = global::SimuladorPelotero.Properties.Resources.Juan_Soto;
-            this.JuanSotoPB.Location = new System.Drawing.Point(6, 376);
-            this.JuanSotoPB.Name = "JuanSotoPB";
-            this.JuanSotoPB.Size = new System.Drawing.Size(222, 154);
-            this.JuanSotoPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.JuanSotoPB.TabIndex = 11;
-            this.JuanSotoPB.TabStop = false;
-            this.JuanSotoPB.Click += new System.EventHandler(this.JuanSotoPB_Click);
-            // 
-            // JonathanArauzPB
-            // 
-            this.JonathanArauzPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.JonathanArauzPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.JonathanArauzPB.Image = global::SimuladorPelotero.Properties.Resources.Jonathan_Arauz;
-            this.JonathanArauzPB.Location = new System.Drawing.Point(918, 188);
-            this.JonathanArauzPB.Name = "JonathanArauzPB";
-            this.JonathanArauzPB.Size = new System.Drawing.Size(222, 154);
-            this.JonathanArauzPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.JonathanArauzPB.TabIndex = 10;
-            this.JonathanArauzPB.TabStop = false;
-            this.JonathanArauzPB.Click += new System.EventHandler(this.JonathanArauzPB_Click);
-            // 
-            // GleyberTorresPB
-            // 
-            this.GleyberTorresPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GleyberTorresPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GleyberTorresPB.Image = global::SimuladorPelotero.Properties.Resources.Gleyber_Torres;
-            this.GleyberTorresPB.Location = new System.Drawing.Point(690, 188);
-            this.GleyberTorresPB.Name = "GleyberTorresPB";
-            this.GleyberTorresPB.Size = new System.Drawing.Size(222, 154);
-            this.GleyberTorresPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GleyberTorresPB.TabIndex = 9;
-            this.GleyberTorresPB.TabStop = false;
-            this.GleyberTorresPB.Click += new System.EventHandler(this.GleyberTorresPB_Click);
-            // 
-            // GioUrshelaPB
-            // 
-            this.GioUrshelaPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GioUrshelaPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GioUrshelaPB.Image = global::SimuladorPelotero.Properties.Resources.Gio_Urshela;
-            this.GioUrshelaPB.Location = new System.Drawing.Point(462, 188);
-            this.GioUrshelaPB.Name = "GioUrshelaPB";
-            this.GioUrshelaPB.Size = new System.Drawing.Size(222, 154);
-            this.GioUrshelaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GioUrshelaPB.TabIndex = 8;
-            this.GioUrshelaPB.TabStop = false;
-            this.GioUrshelaPB.Click += new System.EventHandler(this.GioUrshelaPB_Click);
-            // 
-            // GiancarloStantonPB
-            // 
-            this.GiancarloStantonPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GiancarloStantonPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GiancarloStantonPB.Image = global::SimuladorPelotero.Properties.Resources.Giancarlo_Stanton;
-            this.GiancarloStantonPB.Location = new System.Drawing.Point(234, 188);
-            this.GiancarloStantonPB.Name = "GiancarloStantonPB";
-            this.GiancarloStantonPB.Size = new System.Drawing.Size(222, 154);
-            this.GiancarloStantonPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GiancarloStantonPB.TabIndex = 7;
-            this.GiancarloStantonPB.TabStop = false;
-            this.GiancarloStantonPB.Click += new System.EventHandler(this.GiancarloStantonPB_Click);
-            // 
-            // GarySanchezPB
-            // 
-            this.GarySanchezPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GarySanchezPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.GarySanchezPB.Image = global::SimuladorPelotero.Properties.Resources.Gary_Sanchez;
-            this.GarySanchezPB.Location = new System.Drawing.Point(6, 188);
-            this.GarySanchezPB.Name = "GarySanchezPB";
-            this.GarySanchezPB.Size = new System.Drawing.Size(222, 154);
-            this.GarySanchezPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.GarySanchezPB.TabIndex = 6;
-            this.GarySanchezPB.TabStop = false;
-            this.GarySanchezPB.Click += new System.EventHandler(this.GarySanchezPB_Click);
-            // 
-            // DJLeMahieuPB
-            // 
-            this.DJLeMahieuPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DJLeMahieuPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DJLeMahieuPB.Image = global::SimuladorPelotero.Properties.Resources.DJ_LeMahieu;
-            this.DJLeMahieuPB.Location = new System.Drawing.Point(918, 6);
-            this.DJLeMahieuPB.Name = "DJLeMahieuPB";
-            this.DJLeMahieuPB.Size = new System.Drawing.Size(222, 154);
-            this.DJLeMahieuPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.DJLeMahieuPB.TabIndex = 4;
-            this.DJLeMahieuPB.TabStop = false;
-            this.DJLeMahieuPB.Click += new System.EventHandler(this.DJLeMahieuPB_Click);
-            // 
-            // ClintFrazierPB
-            // 
-            this.ClintFrazierPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ClintFrazierPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.ClintFrazierPB.Image = global::SimuladorPelotero.Properties.Resources.Clint_Frazier;
-            this.ClintFrazierPB.Location = new System.Drawing.Point(690, 6);
-            this.ClintFrazierPB.Name = "ClintFrazierPB";
-            this.ClintFrazierPB.Size = new System.Drawing.Size(222, 154);
-            this.ClintFrazierPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ClintFrazierPB.TabIndex = 3;
-            this.ClintFrazierPB.TabStop = false;
-            this.ClintFrazierPB.Click += new System.EventHandler(this.ClintFrazierPB_Click);
-            // 
-            // BrettGardnerPB
-            // 
-            this.BrettGardnerPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BrettGardnerPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BrettGardnerPB.Image = global::SimuladorPelotero.Properties.Resources.Brett_Gardner;
-            this.BrettGardnerPB.Location = new System.Drawing.Point(462, 6);
-            this.BrettGardnerPB.Name = "BrettGardnerPB";
-            this.BrettGardnerPB.Size = new System.Drawing.Size(222, 154);
-            this.BrettGardnerPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BrettGardnerPB.TabIndex = 2;
-            this.BrettGardnerPB.TabStop = false;
-            this.BrettGardnerPB.Click += new System.EventHandler(this.BrettGardnerPB_Click);
-            // 
-            // AaronHicksPB
-            // 
-            this.AaronHicksPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AaronHicksPB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AaronHicksPB.Image = global::SimuladorPelotero.Properties.Resources.Aaron_Hicks;
-            this.AaronHicksPB.Location = new System.Drawing.Point(234, 6);
-            this.AaronHicksPB.Name = "AaronHicksPB";
-            this.AaronHicksPB.Size = new System.Drawing.Size(222, 154);
-            this.AaronHicksPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AaronHicksPB.TabIndex = 1;
-            this.AaronHicksPB.TabStop = false;
-            this.AaronHicksPB.Click += new System.EventHandler(this.AaronHicksPB_Click);
-            // 
-            // AaronJudgePB
-            // 
-            this.AaronJudgePB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AaronJudgePB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AaronJudgePB.Image = global::SimuladorPelotero.Properties.Resources.Aaron_Judge;
-            this.AaronJudgePB.Location = new System.Drawing.Point(6, 6);
-            this.AaronJudgePB.Name = "AaronJudgePB";
-            this.AaronJudgePB.Size = new System.Drawing.Size(222, 154);
-            this.AaronJudgePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.AaronJudgePB.TabIndex = 0;
-            this.AaronJudgePB.TabStop = false;
-            this.AaronJudgePB.Click += new System.EventHandler(this.AaronJudgePB_Click);
             // 
             // label1
             // 
@@ -654,6 +396,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.CompletadoPB);
             this.tabPage2.Controls.Add(this.CantTotalHitsTextBox);
             this.tabPage2.Controls.Add(this.label36);
             this.tabPage2.Controls.Add(this.CantTotalLanzamientosTextBox);
@@ -701,6 +444,7 @@
             this.CantTotalHitsTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CantTotalHitsTextBox.Location = new System.Drawing.Point(54, 490);
             this.CantTotalHitsTextBox.Name = "CantTotalHitsTextBox";
+            this.CantTotalHitsTextBox.ReadOnly = true;
             this.CantTotalHitsTextBox.Size = new System.Drawing.Size(434, 36);
             this.CantTotalHitsTextBox.TabIndex = 47;
             // 
@@ -719,6 +463,7 @@
             this.CantTotalLanzamientosTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CantTotalLanzamientosTextBox.Location = new System.Drawing.Point(54, 569);
             this.CantTotalLanzamientosTextBox.Name = "CantTotalLanzamientosTextBox";
+            this.CantTotalLanzamientosTextBox.ReadOnly = true;
             this.CantTotalLanzamientosTextBox.Size = new System.Drawing.Size(434, 36);
             this.CantTotalLanzamientosTextBox.TabIndex = 45;
             // 
@@ -789,6 +534,7 @@
             this.LanzamientosMasDominadosTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LanzamientosMasDominadosTextBox.Location = new System.Drawing.Point(54, 410);
             this.LanzamientosMasDominadosTextBox.Name = "LanzamientosMasDominadosTextBox";
+            this.LanzamientosMasDominadosTextBox.ReadOnly = true;
             this.LanzamientosMasDominadosTextBox.Size = new System.Drawing.Size(434, 36);
             this.LanzamientosMasDominadosTextBox.TabIndex = 34;
             // 
@@ -807,6 +553,7 @@
             this.PromedioBateoFinalTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PromedioBateoFinalTextBox.Location = new System.Drawing.Point(54, 650);
             this.PromedioBateoFinalTextBox.Name = "PromedioBateoFinalTextBox";
+            this.PromedioBateoFinalTextBox.ReadOnly = true;
             this.PromedioBateoFinalTextBox.Size = new System.Drawing.Size(434, 36);
             this.PromedioBateoFinalTextBox.TabIndex = 32;
             // 
@@ -825,6 +572,7 @@
             this.ProblemaMasAfectoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProblemaMasAfectoTextBox.Location = new System.Drawing.Point(54, 330);
             this.ProblemaMasAfectoTextBox.Name = "ProblemaMasAfectoTextBox";
+            this.ProblemaMasAfectoTextBox.ReadOnly = true;
             this.ProblemaMasAfectoTextBox.Size = new System.Drawing.Size(434, 36);
             this.ProblemaMasAfectoTextBox.TabIndex = 30;
             // 
@@ -843,6 +591,7 @@
             this.PromedioBateoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PromedioBateoTextBox.Location = new System.Drawing.Point(629, 650);
             this.PromedioBateoTextBox.Name = "PromedioBateoTextBox";
+            this.PromedioBateoTextBox.ReadOnly = true;
             this.PromedioBateoTextBox.Size = new System.Drawing.Size(434, 36);
             this.PromedioBateoTextBox.TabIndex = 28;
             // 
@@ -861,6 +610,7 @@
             this.CantHitsTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CantHitsTextBox.Location = new System.Drawing.Point(629, 490);
             this.CantHitsTextBox.Name = "CantHitsTextBox";
+            this.CantHitsTextBox.ReadOnly = true;
             this.CantHitsTextBox.Size = new System.Drawing.Size(434, 36);
             this.CantHitsTextBox.TabIndex = 26;
             // 
@@ -879,6 +629,7 @@
             this.TipoContactoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TipoContactoTextBox.Location = new System.Drawing.Point(629, 410);
             this.TipoContactoTextBox.Name = "TipoContactoTextBox";
+            this.TipoContactoTextBox.ReadOnly = true;
             this.TipoContactoTextBox.Size = new System.Drawing.Size(434, 36);
             this.TipoContactoTextBox.TabIndex = 24;
             // 
@@ -897,6 +648,7 @@
             this.CantLanzamientosContactoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CantLanzamientosContactoTextBox.Location = new System.Drawing.Point(629, 330);
             this.CantLanzamientosContactoTextBox.Name = "CantLanzamientosContactoTextBox";
+            this.CantLanzamientosContactoTextBox.ReadOnly = true;
             this.CantLanzamientosContactoTextBox.Size = new System.Drawing.Size(434, 36);
             this.CantLanzamientosContactoTextBox.TabIndex = 22;
             // 
@@ -915,6 +667,7 @@
             this.ProblemaTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProblemaTextBox.Location = new System.Drawing.Point(629, 570);
             this.ProblemaTextBox.Name = "ProblemaTextBox";
+            this.ProblemaTextBox.ReadOnly = true;
             this.ProblemaTextBox.Size = new System.Drawing.Size(434, 36);
             this.ProblemaTextBox.TabIndex = 20;
             // 
@@ -933,6 +686,7 @@
             this.TipoLanzamientoTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TipoLanzamientoTextBox.Location = new System.Drawing.Point(629, 250);
             this.TipoLanzamientoTextBox.Name = "TipoLanzamientoTextBox";
+            this.TipoLanzamientoTextBox.ReadOnly = true;
             this.TipoLanzamientoTextBox.Size = new System.Drawing.Size(434, 36);
             this.TipoLanzamientoTextBox.TabIndex = 10;
             // 
@@ -951,6 +705,7 @@
             this.CantLanzamientosTextBox.Font = new System.Drawing.Font("Goudy Old Style", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CantLanzamientosTextBox.Location = new System.Drawing.Point(629, 170);
             this.CantLanzamientosTextBox.Name = "CantLanzamientosTextBox";
+            this.CantLanzamientosTextBox.ReadOnly = true;
             this.CantLanzamientosTextBox.Size = new System.Drawing.Size(434, 36);
             this.CantLanzamientosTextBox.TabIndex = 8;
             // 
@@ -995,6 +750,286 @@
             this.SigteLanzamientoButton.UseVisualStyleBackColor = true;
             this.SigteLanzamientoButton.Click += new System.EventHandler(this.SigteLanzamientoButton_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Black;
+            this.groupBox2.Location = new System.Drawing.Point(0, 215);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(541, 5);
+            this.groupBox2.TabIndex = 6;
+            this.groupBox2.TabStop = false;
+            // 
+            // TylerWadePB
+            // 
+            this.TylerWadePB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TylerWadePB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TylerWadePB.Image = global::SimuladorPelotero.Properties.Resources.Tyler_Wade;
+            this.TylerWadePB.Location = new System.Drawing.Point(918, 564);
+            this.TylerWadePB.Name = "TylerWadePB";
+            this.TylerWadePB.Size = new System.Drawing.Size(222, 154);
+            this.TylerWadePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.TylerWadePB.TabIndex = 20;
+            this.TylerWadePB.TabStop = false;
+            this.TylerWadePB.Click += new System.EventHandler(this.TylerWadePB_Click);
+            // 
+            // ThairoEstradaPB
+            // 
+            this.ThairoEstradaPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ThairoEstradaPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ThairoEstradaPB.Image = global::SimuladorPelotero.Properties.Resources.Thairo_Estrada;
+            this.ThairoEstradaPB.Location = new System.Drawing.Point(690, 564);
+            this.ThairoEstradaPB.Name = "ThairoEstradaPB";
+            this.ThairoEstradaPB.Size = new System.Drawing.Size(222, 154);
+            this.ThairoEstradaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ThairoEstradaPB.TabIndex = 19;
+            this.ThairoEstradaPB.TabStop = false;
+            this.ThairoEstradaPB.Click += new System.EventHandler(this.ThairoEstradaPB_Click);
+            // 
+            // RafaelDeversPB
+            // 
+            this.RafaelDeversPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RafaelDeversPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.RafaelDeversPB.Image = global::SimuladorPelotero.Properties.Resources.Rafael_Devers;
+            this.RafaelDeversPB.Location = new System.Drawing.Point(462, 564);
+            this.RafaelDeversPB.Name = "RafaelDeversPB";
+            this.RafaelDeversPB.Size = new System.Drawing.Size(222, 154);
+            this.RafaelDeversPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.RafaelDeversPB.TabIndex = 18;
+            this.RafaelDeversPB.TabStop = false;
+            this.RafaelDeversPB.Click += new System.EventHandler(this.RafaelDeversPB_Click);
+            // 
+            // MikeTauchmanPB
+            // 
+            this.MikeTauchmanPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MikeTauchmanPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MikeTauchmanPB.Image = global::SimuladorPelotero.Properties.Resources.Mike_Tauchman;
+            this.MikeTauchmanPB.Location = new System.Drawing.Point(234, 564);
+            this.MikeTauchmanPB.Name = "MikeTauchmanPB";
+            this.MikeTauchmanPB.Size = new System.Drawing.Size(222, 154);
+            this.MikeTauchmanPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MikeTauchmanPB.TabIndex = 17;
+            this.MikeTauchmanPB.TabStop = false;
+            this.MikeTauchmanPB.Click += new System.EventHandler(this.MikeTauchmanPB_Click);
+            // 
+            // MikeFordPB
+            // 
+            this.MikeFordPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MikeFordPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MikeFordPB.Image = global::SimuladorPelotero.Properties.Resources.Mike_Ford;
+            this.MikeFordPB.Location = new System.Drawing.Point(6, 564);
+            this.MikeFordPB.Name = "MikeFordPB";
+            this.MikeFordPB.Size = new System.Drawing.Size(222, 154);
+            this.MikeFordPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MikeFordPB.TabIndex = 16;
+            this.MikeFordPB.TabStop = false;
+            this.MikeFordPB.Click += new System.EventHandler(this.MikeFordPB_Click);
+            // 
+            // MiguelAndujarPB
+            // 
+            this.MiguelAndujarPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MiguelAndujarPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MiguelAndujarPB.Image = global::SimuladorPelotero.Properties.Resources.Miguel_Andujar;
+            this.MiguelAndujarPB.Location = new System.Drawing.Point(918, 376);
+            this.MiguelAndujarPB.Name = "MiguelAndujarPB";
+            this.MiguelAndujarPB.Size = new System.Drawing.Size(222, 154);
+            this.MiguelAndujarPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MiguelAndujarPB.TabIndex = 15;
+            this.MiguelAndujarPB.TabStop = false;
+            this.MiguelAndujarPB.Click += new System.EventHandler(this.MiguelAndujarPB_Click);
+            // 
+            // MichaelChavisPB
+            // 
+            this.MichaelChavisPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MichaelChavisPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.MichaelChavisPB.Image = global::SimuladorPelotero.Properties.Resources.Michael_Chavis;
+            this.MichaelChavisPB.Location = new System.Drawing.Point(690, 376);
+            this.MichaelChavisPB.Name = "MichaelChavisPB";
+            this.MichaelChavisPB.Size = new System.Drawing.Size(222, 154);
+            this.MichaelChavisPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.MichaelChavisPB.TabIndex = 14;
+            this.MichaelChavisPB.TabStop = false;
+            this.MichaelChavisPB.Click += new System.EventHandler(this.MichaelChavisPB_Click);
+            // 
+            // LukeVoitPB
+            // 
+            this.LukeVoitPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.LukeVoitPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LukeVoitPB.Image = global::SimuladorPelotero.Properties.Resources.Luke_Voit;
+            this.LukeVoitPB.Location = new System.Drawing.Point(462, 376);
+            this.LukeVoitPB.Name = "LukeVoitPB";
+            this.LukeVoitPB.Size = new System.Drawing.Size(222, 154);
+            this.LukeVoitPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.LukeVoitPB.TabIndex = 13;
+            this.LukeVoitPB.TabStop = false;
+            this.LukeVoitPB.Click += new System.EventHandler(this.LukeVoitPB_Click);
+            // 
+            // KyleHigashiokaPB
+            // 
+            this.KyleHigashiokaPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.KyleHigashiokaPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.KyleHigashiokaPB.Image = global::SimuladorPelotero.Properties.Resources.Kyle_Higashioka;
+            this.KyleHigashiokaPB.Location = new System.Drawing.Point(234, 376);
+            this.KyleHigashiokaPB.Name = "KyleHigashiokaPB";
+            this.KyleHigashiokaPB.Size = new System.Drawing.Size(222, 154);
+            this.KyleHigashiokaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.KyleHigashiokaPB.TabIndex = 12;
+            this.KyleHigashiokaPB.TabStop = false;
+            this.KyleHigashiokaPB.Click += new System.EventHandler(this.KyleHigashiokaPB_Click);
+            // 
+            // JuanSotoPB
+            // 
+            this.JuanSotoPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.JuanSotoPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.JuanSotoPB.Image = global::SimuladorPelotero.Properties.Resources.Juan_Soto;
+            this.JuanSotoPB.Location = new System.Drawing.Point(6, 376);
+            this.JuanSotoPB.Name = "JuanSotoPB";
+            this.JuanSotoPB.Size = new System.Drawing.Size(222, 154);
+            this.JuanSotoPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.JuanSotoPB.TabIndex = 11;
+            this.JuanSotoPB.TabStop = false;
+            this.JuanSotoPB.Click += new System.EventHandler(this.JuanSotoPB_Click);
+            // 
+            // JonathanArauzPB
+            // 
+            this.JonathanArauzPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.JonathanArauzPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.JonathanArauzPB.Image = global::SimuladorPelotero.Properties.Resources.Jonathan_Arauz;
+            this.JonathanArauzPB.Location = new System.Drawing.Point(918, 188);
+            this.JonathanArauzPB.Name = "JonathanArauzPB";
+            this.JonathanArauzPB.Size = new System.Drawing.Size(222, 154);
+            this.JonathanArauzPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.JonathanArauzPB.TabIndex = 10;
+            this.JonathanArauzPB.TabStop = false;
+            this.JonathanArauzPB.Click += new System.EventHandler(this.JonathanArauzPB_Click);
+            // 
+            // GleyberTorresPB
+            // 
+            this.GleyberTorresPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.GleyberTorresPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GleyberTorresPB.Image = global::SimuladorPelotero.Properties.Resources.Gleyber_Torres;
+            this.GleyberTorresPB.Location = new System.Drawing.Point(690, 188);
+            this.GleyberTorresPB.Name = "GleyberTorresPB";
+            this.GleyberTorresPB.Size = new System.Drawing.Size(222, 154);
+            this.GleyberTorresPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.GleyberTorresPB.TabIndex = 9;
+            this.GleyberTorresPB.TabStop = false;
+            this.GleyberTorresPB.Click += new System.EventHandler(this.GleyberTorresPB_Click);
+            // 
+            // GioUrshelaPB
+            // 
+            this.GioUrshelaPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.GioUrshelaPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GioUrshelaPB.Image = global::SimuladorPelotero.Properties.Resources.Gio_Urshela;
+            this.GioUrshelaPB.Location = new System.Drawing.Point(462, 188);
+            this.GioUrshelaPB.Name = "GioUrshelaPB";
+            this.GioUrshelaPB.Size = new System.Drawing.Size(222, 154);
+            this.GioUrshelaPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.GioUrshelaPB.TabIndex = 8;
+            this.GioUrshelaPB.TabStop = false;
+            this.GioUrshelaPB.Click += new System.EventHandler(this.GioUrshelaPB_Click);
+            // 
+            // GiancarloStantonPB
+            // 
+            this.GiancarloStantonPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.GiancarloStantonPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GiancarloStantonPB.Image = global::SimuladorPelotero.Properties.Resources.Giancarlo_Stanton;
+            this.GiancarloStantonPB.Location = new System.Drawing.Point(234, 188);
+            this.GiancarloStantonPB.Name = "GiancarloStantonPB";
+            this.GiancarloStantonPB.Size = new System.Drawing.Size(222, 154);
+            this.GiancarloStantonPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.GiancarloStantonPB.TabIndex = 7;
+            this.GiancarloStantonPB.TabStop = false;
+            this.GiancarloStantonPB.Click += new System.EventHandler(this.GiancarloStantonPB_Click);
+            // 
+            // GarySanchezPB
+            // 
+            this.GarySanchezPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.GarySanchezPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GarySanchezPB.Image = global::SimuladorPelotero.Properties.Resources.Gary_Sanchez;
+            this.GarySanchezPB.Location = new System.Drawing.Point(6, 188);
+            this.GarySanchezPB.Name = "GarySanchezPB";
+            this.GarySanchezPB.Size = new System.Drawing.Size(222, 154);
+            this.GarySanchezPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.GarySanchezPB.TabIndex = 6;
+            this.GarySanchezPB.TabStop = false;
+            this.GarySanchezPB.Click += new System.EventHandler(this.GarySanchezPB_Click);
+            // 
+            // DJLeMahieuPB
+            // 
+            this.DJLeMahieuPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.DJLeMahieuPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DJLeMahieuPB.Image = global::SimuladorPelotero.Properties.Resources.DJ_LeMahieu;
+            this.DJLeMahieuPB.Location = new System.Drawing.Point(918, 6);
+            this.DJLeMahieuPB.Name = "DJLeMahieuPB";
+            this.DJLeMahieuPB.Size = new System.Drawing.Size(222, 154);
+            this.DJLeMahieuPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.DJLeMahieuPB.TabIndex = 4;
+            this.DJLeMahieuPB.TabStop = false;
+            this.DJLeMahieuPB.Click += new System.EventHandler(this.DJLeMahieuPB_Click);
+            // 
+            // ClintFrazierPB
+            // 
+            this.ClintFrazierPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ClintFrazierPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ClintFrazierPB.Image = global::SimuladorPelotero.Properties.Resources.Clint_Frazier;
+            this.ClintFrazierPB.Location = new System.Drawing.Point(690, 6);
+            this.ClintFrazierPB.Name = "ClintFrazierPB";
+            this.ClintFrazierPB.Size = new System.Drawing.Size(222, 154);
+            this.ClintFrazierPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ClintFrazierPB.TabIndex = 3;
+            this.ClintFrazierPB.TabStop = false;
+            this.ClintFrazierPB.Click += new System.EventHandler(this.ClintFrazierPB_Click);
+            // 
+            // BrettGardnerPB
+            // 
+            this.BrettGardnerPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.BrettGardnerPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BrettGardnerPB.Image = global::SimuladorPelotero.Properties.Resources.Brett_Gardner;
+            this.BrettGardnerPB.Location = new System.Drawing.Point(462, 6);
+            this.BrettGardnerPB.Name = "BrettGardnerPB";
+            this.BrettGardnerPB.Size = new System.Drawing.Size(222, 154);
+            this.BrettGardnerPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BrettGardnerPB.TabIndex = 2;
+            this.BrettGardnerPB.TabStop = false;
+            this.BrettGardnerPB.Click += new System.EventHandler(this.BrettGardnerPB_Click);
+            // 
+            // AaronHicksPB
+            // 
+            this.AaronHicksPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.AaronHicksPB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AaronHicksPB.Image = global::SimuladorPelotero.Properties.Resources.Aaron_Hicks;
+            this.AaronHicksPB.Location = new System.Drawing.Point(234, 6);
+            this.AaronHicksPB.Name = "AaronHicksPB";
+            this.AaronHicksPB.Size = new System.Drawing.Size(222, 154);
+            this.AaronHicksPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.AaronHicksPB.TabIndex = 1;
+            this.AaronHicksPB.TabStop = false;
+            this.AaronHicksPB.Click += new System.EventHandler(this.AaronHicksPB_Click);
+            // 
+            // AaronJudgePB
+            // 
+            this.AaronJudgePB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.AaronJudgePB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AaronJudgePB.Image = global::SimuladorPelotero.Properties.Resources.Aaron_Judge;
+            this.AaronJudgePB.Location = new System.Drawing.Point(6, 6);
+            this.AaronJudgePB.Name = "AaronJudgePB";
+            this.AaronJudgePB.Size = new System.Drawing.Size(222, 154);
+            this.AaronJudgePB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.AaronJudgePB.TabIndex = 0;
+            this.AaronJudgePB.TabStop = false;
+            this.AaronJudgePB.Click += new System.EventHandler(this.AaronJudgePB_Click);
+            // 
+            // CompletadoPB
+            // 
+            this.CompletadoPB.Image = global::SimuladorPelotero.Properties.Resources.Practica_Completa;
+            this.CompletadoPB.Location = new System.Drawing.Point(6, 6);
+            this.CompletadoPB.Name = "CompletadoPB";
+            this.CompletadoPB.Size = new System.Drawing.Size(53, 50);
+            this.CompletadoPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.CompletadoPB.TabIndex = 48;
+            this.CompletadoPB.TabStop = false;
+            this.CompletadoPB.Visible = false;
+            // 
             // JugadorPictureBox
             // 
             this.JugadorPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -1005,15 +1040,6 @@
             this.JugadorPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.JugadorPictureBox.TabIndex = 1;
             this.JugadorPictureBox.TabStop = false;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Black;
-            this.groupBox2.Location = new System.Drawing.Point(0, 215);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(541, 5);
-            this.groupBox2.TabIndex = 6;
-            this.groupBox2.TabStop = false;
             // 
             // MainForm
             // 
@@ -1028,6 +1054,8 @@
             this.TabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TylerWadePB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ThairoEstradaPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RafaelDeversPB)).EndInit();
@@ -1048,8 +1076,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.BrettGardnerPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AaronHicksPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AaronJudgePB)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CompletadoPB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.JugadorPictureBox)).EndInit();
             this.ResumeLayout(false);
 
@@ -1134,6 +1161,7 @@
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.TextBox CantTotalLanzamientosTextBox;
         private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.PictureBox CompletadoPB;
     }
 }
 

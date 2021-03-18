@@ -233,6 +233,16 @@ namespace SimuladorPelotero.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Practica_Completa {
+            get {
+                object obj = ResourceManager.GetObject("Practica Completa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Rafael_Devers {
             get {
                 object obj = ResourceManager.GetObject("Rafael Devers", resourceCulture);

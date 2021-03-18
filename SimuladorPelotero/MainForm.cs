@@ -14,7 +14,7 @@ namespace SimuladorPelotero
     {
         string TipoLanzamientoAnterior = "Ninguno", TipoLanzamiento, TipoContacto, Problema = "Ninguno", ProblemaMasAfecto, LanzamientoMasDominado;
         int CantidadDiariaHits = 0, CantidadTotalLanzamientos = 0, CantidadTotalHits = 0, Covid = 0, Gripe = 0, Alcohol = 0, Trasnocho = 0;
-        int Dia = 0, PosibilidadContacto = 50, CantidadDiariaLanzamientos = 0, CantidadLanzamientosConContacto = 0, AuxLanzamiento = 0;
+        int Dia = 0, PosibilidadContacto = 40, CantidadDiariaLanzamientos = 0, CantidadLanzamientosConContacto = 0, AuxLanzamiento = 0;
         int Curva = 0, Recta = 0, Cambio = 0, Nudillo = 0, Slider = 0;
         float PromedioTotalBateo = 0, PromedioDiarioBateo = 0;
         bool Bateo;
@@ -64,6 +64,7 @@ namespace SimuladorPelotero
             PromedioTotalBateo = 0;
             Dia = 0;
 
+            PosibilidadContacto = 40;
             CantLanzamientosTextBox.Text = string.Empty;
             TipoLanzamientoTextBox.Text = string.Empty;
             CantLanzamientosContactoTextBox.Text = string.Empty;
@@ -128,9 +129,9 @@ namespace SimuladorPelotero
             if (Bateo == true)
             {
                 Random aleatorio = new Random();
-                int aux = aleatorio.Next(1, 6);
+                int aux = aleatorio.Next(1, 4);
 
-                if (aux < 4)
+                if (aux < 3)
                 {
                     TipoContacto = "Hit";
                     if (TipoLanzamiento == "Curva")
@@ -293,6 +294,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = AaronJudgePB.Image;
             JugadorTextBox.Text = "Aaron Judge";
             TabControl.SelectedIndex = 1;
+            AaronJudgePB.Image = CompletadoPB.Image;
+            AaronJudgePB.Enabled = false;
         }
         private void AaronHicksPB_Click(object sender, EventArgs e)
         {
@@ -300,6 +303,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = AaronHicksPB.Image;
             JugadorTextBox.Text = "Aaron Hicks";
             TabControl.SelectedIndex = 1;
+            AaronHicksPB.Image = CompletadoPB.Image;
+            AaronHicksPB.Enabled = false;
         }
         private void BrettGardnerPB_Click(object sender, EventArgs e)
         {
@@ -307,6 +312,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = BrettGardnerPB.Image;
             JugadorTextBox.Text = "Brett Gardner";
             TabControl.SelectedIndex = 1;
+            BrettGardnerPB.Image = CompletadoPB.Image;
+            BrettGardnerPB.Enabled = false;
         }
         private void ClintFrazierPB_Click(object sender, EventArgs e)
         {
@@ -314,6 +321,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = ClintFrazierPB.Image;
             JugadorTextBox.Text = "Clint Frazier";
             TabControl.SelectedIndex = 1;
+            ClintFrazierPB.Image = CompletadoPB.Image;
+            ClintFrazierPB.Enabled = false;
         }
         private void DJLeMahieuPB_Click(object sender, EventArgs e)
         {
@@ -321,6 +330,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = DJLeMahieuPB.Image;
             JugadorTextBox.Text = "DJ LeMahieu";
             TabControl.SelectedIndex = 1;
+            DJLeMahieuPB.Image = CompletadoPB.Image;
+            DJLeMahieuPB.Enabled = false;
         }
         private void GarySanchezPB_Click(object sender, EventArgs e)
         {
@@ -328,6 +339,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = GarySanchezPB.Image;
             JugadorTextBox.Text = "Gary Sanchez";
             TabControl.SelectedIndex = 1;
+            GarySanchezPB.Image = CompletadoPB.Image;
+            GarySanchezPB.Enabled = false;
         }
         private void GiancarloStantonPB_Click(object sender, EventArgs e)
         {
@@ -335,6 +348,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = GiancarloStantonPB.Image;
             JugadorTextBox.Text = "Giancarlo Stanton";
             TabControl.SelectedIndex = 1;
+            GiancarloStantonPB.Image = CompletadoPB.Image;
+            GiancarloStantonPB.Enabled = false;
         }
         private void GioUrshelaPB_Click(object sender, EventArgs e)
         {
@@ -342,6 +357,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = GioUrshelaPB.Image;
             JugadorTextBox.Text = "Gio Urshela";
             TabControl.SelectedIndex = 1;
+            GioUrshelaPB.Image = CompletadoPB.Image;
+            GioUrshelaPB.Enabled = false;
         }
         private void GleyberTorresPB_Click(object sender, EventArgs e)
         {
@@ -349,6 +366,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = GleyberTorresPB.Image;
             JugadorTextBox.Text = "Gleyber Torres";
             TabControl.SelectedIndex = 1;
+            GleyberTorresPB.Image = CompletadoPB.Image;
+            GleyberTorresPB.Enabled = false;
         }
         private void JonathanArauzPB_Click(object sender, EventArgs e)
         {
@@ -356,6 +375,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = JonathanArauzPB.Image;
             JugadorTextBox.Text = "Jonathan Arauz";
             TabControl.SelectedIndex = 1;
+            JonathanArauzPB.Image = CompletadoPB.Image;
+            JonathanArauzPB.Enabled = false;
         }
         private void JuanSotoPB_Click(object sender, EventArgs e)
         {
@@ -363,6 +384,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = JuanSotoPB.Image;
             JugadorTextBox.Text = "Juan Soto";
             TabControl.SelectedIndex = 1;
+            JuanSotoPB.Image = CompletadoPB.Image;
+            JuanSotoPB.Enabled = false;
         }
         private void KyleHigashiokaPB_Click(object sender, EventArgs e)
         {
@@ -370,6 +393,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = KyleHigashiokaPB.Image;
             JugadorTextBox.Text = "Kyle Higashioka";
             TabControl.SelectedIndex = 1;
+            KyleHigashiokaPB.Image = CompletadoPB.Image;
+            KyleHigashiokaPB.Enabled = false;
         }
         private void LukeVoitPB_Click(object sender, EventArgs e)
         {
@@ -377,6 +402,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = LukeVoitPB.Image;
             JugadorTextBox.Text = "Luke Voit";
             TabControl.SelectedIndex = 1;
+            LukeVoitPB.Image = CompletadoPB.Image;
+            LukeVoitPB.Enabled = false;
         }
         private void MichaelChavisPB_Click(object sender, EventArgs e)
         {
@@ -384,6 +411,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = MichaelChavisPB.Image;
             JugadorTextBox.Text = "Michael Chavis";
             TabControl.SelectedIndex = 1;
+            MichaelChavisPB.Image = CompletadoPB.Image;
+            MichaelChavisPB.Enabled = false;
         }
         private void MiguelAndujarPB_Click(object sender, EventArgs e)
         {
@@ -391,6 +420,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = MiguelAndujarPB.Image;
             JugadorTextBox.Text = "Miguel Andujar";
             TabControl.SelectedIndex = 1;
+            MiguelAndujarPB.Image = CompletadoPB.Image;
+            MiguelAndujarPB.Enabled = false;
         }
         private void MikeFordPB_Click(object sender, EventArgs e)
         {
@@ -398,6 +429,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = MikeFordPB.Image;
             JugadorTextBox.Text = "Mike Ford";
             TabControl.SelectedIndex = 1;
+            MikeFordPB.Image = CompletadoPB.Image;
+            MikeFordPB.Enabled = false;
         }
         private void MikeTauchmanPB_Click(object sender, EventArgs e)
         {
@@ -405,6 +438,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = MikeTauchmanPB.Image;
             JugadorTextBox.Text = "Mike Tauchman";
             TabControl.SelectedIndex = 1;
+            MikeTauchmanPB.Image = CompletadoPB.Image;
+            MikeTauchmanPB.Enabled = false;
         }
         private void RafaelDeversPB_Click(object sender, EventArgs e)
         {
@@ -412,6 +447,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = RafaelDeversPB.Image;
             JugadorTextBox.Text = "Rafael Devers";
             TabControl.SelectedIndex = 1;
+            RafaelDeversPB.Image = CompletadoPB.Image;
+            RafaelDeversPB.Enabled = false;
         }
         private void ThairoEstradaPB_Click(object sender, EventArgs e)
         {
@@ -419,6 +456,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = ThairoEstradaPB.Image;
             JugadorTextBox.Text = "Thairo Estrada";
             TabControl.SelectedIndex = 1;
+            ThairoEstradaPB.Image = CompletadoPB.Image;
+            ThairoEstradaPB.Enabled = false;
         }
         private void TylerWadePB_Click(object sender, EventArgs e)
         {
@@ -426,6 +465,8 @@ namespace SimuladorPelotero
             JugadorPictureBox.Image = TylerWadePB.Image;
             JugadorTextBox.Text = "Tyler Wade";
             TabControl.SelectedIndex = 1;
+            TylerWadePB.Image = CompletadoPB.Image;
+            TylerWadePB.Enabled = false;
         }
     }
 }

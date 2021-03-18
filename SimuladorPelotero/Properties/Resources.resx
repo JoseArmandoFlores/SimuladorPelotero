@@ -118,20 +118,53 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Gio Urshela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gio Urshela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DJ LeMahieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DJ LeMahieu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Aaron Hicks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Aaron Hicks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Brett Gardner" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Brett Gardner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Aaron Judge" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Aaron Judge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Jonathan Arauz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Jonathan Arauz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Clint Frazier" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Clint Frazier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DJ LeMahieu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DJ LeMahieu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Aaron Judge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Aaron Judge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Michael Chavis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Michael Chavis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tyler Wade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tyler Wade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mike Ford" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mike Ford.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gleyber Torres" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gleyber Torres.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luke Voit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luke Voit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brett Gardner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brett Gardner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Juan Soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Juan Soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rafael Devers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rafael Devers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mike Tauchman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mike Tauchman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyle Higashioka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyle Higashioka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gary Sanchez" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gary Sanchez.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,43 +172,13 @@
   <data name="Giancarlo Stanton" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Giancarlo Stanton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Gio Urshela" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gio Urshela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Gleyber Torres" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gleyber Torres.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Jonathan Arauz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jonathan Arauz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Juan Soto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Juan Soto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Kyle Higashioka" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Kyle Higashioka.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Luke Voit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Luke Voit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Michael Chavis" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Michael Chavis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Thairo Estrada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thairo Estrada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Miguel Andujar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Miguel Andujar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mike Ford" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mike Ford.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mike Tauchman" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mike Tauchman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rafael Devers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rafael Devers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Thairo Estrada" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Thairo Estrada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tyler Wade" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tyler Wade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Practica Completa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Practica Completa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
