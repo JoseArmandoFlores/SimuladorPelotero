@@ -128,9 +128,9 @@ namespace SimuladorPelotero
             if (Bateo == true)
             {
                 Random aleatorio = new Random();
-                int aux = aleatorio.Next(1, 4);
+                int aux = aleatorio.Next(1, 6);
 
-                if (aux < 3)
+                if (aux < 4)
                 {
                     TipoContacto = "Hit";
                     if (TipoLanzamiento == "Curva")
@@ -261,6 +261,12 @@ namespace SimuladorPelotero
         private void SigteLanzamientoButton_Click(object sender, EventArgs e)
         {
             Simular();//Simular lanzamiento
+
+            if (Dia == 5)
+            {
+                MessageBox.Show("¡Límite de días alcanzado!", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
         }
 
         private void SigteDiaButton_Click(object sender, EventArgs e)
